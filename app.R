@@ -44,7 +44,7 @@ server <- function(input, output) {
       labs(title="Brain expression",
            subtitle="source: Human Protein Atlas",
            y= "normalized TPM") +
-      scale_fill_manual(values=c("tomato", "steelblue", "grey", "yellow2", "purple")) +
+      scale_fill_manual(values=c("tomato", "steelblue", "gold", "seagreen", "purple")) +
       theme_bw() +
       theme(aspect.ratio = 1/2,
             axis.text.x = element_text(size=10, angle=45, hjust=1),
